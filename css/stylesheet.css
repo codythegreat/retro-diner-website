@@ -7,22 +7,27 @@ body {
   flex-direction: row;
   width: 100%;
   height: 3rem;
-  background: pink;
+  background: black;
+  color: white;
   vertical-align: middle;
 }
 
 #navbar-top .navbar-header {
   font-size: 1.8rem;
-  color: #222;
+  color: white;
   margin: .3rem 1rem;
-  width: 40%
+  width: 40%;
 }
 
-#navbar-top .navbar-link {
+#navbar-top a {
   font-size: 1rem;
-  color: #444;
+  color: white;
   margin: 1rem .7rem;
   width: 15%;
+}
+
+#navbar-top a:hover {
+  color: #ddd;
 }
 
 #tv-img-animation img {
@@ -30,6 +35,14 @@ body {
   top: 0;
   width: 100%;
   height: auto;
-  opacity: .3;
-  z-index: ;
+  z-index: -1;
+}
+
+#tv-img-animation canvas {
+  position: absolute;
+  top: 30vh;
+  left: 34vw;
+  width: 31vw;
+  height: 38vh;
+  background: black;
 }
