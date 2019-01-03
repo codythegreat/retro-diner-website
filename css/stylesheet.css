@@ -1,25 +1,29 @@
 body {
   font-family: "Mukta", sans-serif;
+  background: #555;
 }
 
 #top-navbar {
   position: fixed;
   top: 0px;
   width: 100vw;
-  opacity: 0.7;
+  background: rgba(30, 30, 30, .7);
+  padding: 0px 20px;
 }
 
 #navbar-brand {
-  color: #cc3363;
+  opacity: 1;
+  color: #e55;
   font-size: 1.5rem;
 }
 
 #top-navbar a {
-  color: #62c370;
+  opacity: 1;
+  color: #5e5;
 }
 
 #top-navbar a:hover {
-  color: #ffffff;
+  color: white;
 }
 
 #food-text img {
@@ -30,5 +34,60 @@ body {
   z-index: -1;
 }
 
+#food-text .text-container {
+  max-width: 80%;
+  margin: 30% 10%;
+  background: rgba(30, 30, 30, 0.4);
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+#food-text h3 {
+  font-size: 2rem;
+}
+
+#chef-text {
+  
+}
+
+#chef-text img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: -2;
+}
+
+#chef-text .text-container {
+  position: relative;
+  max-width: 80%;
+  margin: 30% 10%;
+  background: rgba(120, 120, 120, 0.4);
+  border-radius: 10px;
+  text-align: center;
+  color: #e55;
+  padding: 1rem;
+}
+
+#chef-text h3 {
+  font-size: 2rem;
+}
+
 @media only screen and (max-width: 850px) {
+  body {
+    font-size: .7rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar-brand {
+    font-size: 1.2rem;
+  }
+  
+  #food-text .text-container {
+    margin-top: 20%;
+  }
+  #food-text h3 {
+    font-size: 1.5rem;
+  }
 }

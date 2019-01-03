@@ -1,0 +1,70 @@
+body {
+  font-family: "Mukta", sans-serif;
+  background-color: #333;
+}
+
+#top-navbar {
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  background: rgba(30, 30, 30, .7);
+  padding: 0px 20px;
+}
+
+#navbar-brand {
+  opacity: 1;
+  color: #e55;
+  font-size: 1.5rem;
+}
+
+#top-navbar a {
+  opacity: 1;
+}
+
+#top-navbar .green-link {
+  color: #5e5;
+}
+
+#top-navbar .red-link {
+  color: #e55;
+}
+
+#top-navbar a:hover {
+  color: white;
+}
+
+.food-type-container {
+  margin-top: 50px;
+  width: 100vw;
+}
+
+.food-type-container .header-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+.food-type-container .food-grid {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-gap: 5%;
+  grid-template-columns: 1fr 1fr;
+}
+
+.food-type-container .food-item {
+  text-align: center;
+  color: #444;
+  border-radius: 10px;
+  background: #ddd;
+}
+
+@media only screen and (max-width: 850px) {
+  .food-type-container .food-grid {
+    grid-template-columns: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+}
