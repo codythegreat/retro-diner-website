@@ -1,6 +1,11 @@
 body {
   font-family: "Mukta", sans-serif;
-  background: #555;
+  background: #;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 #top-navbar {
@@ -8,23 +13,37 @@ body {
   top: 0px;
   width: 100vw;
   height: 10vh;
-  background: rgba(30, 30, 30, .7);
+  background: #000;
   padding: 0px 20px;
 }
 
 #navbar-brand {
   opacity: 1;
   color: #e55;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
-#top-navbar a {
+#navbar-brand:hover {
+  color: white;
+}
+
+#top-navbar .navbar-link {
   opacity: 1;
   color: #5e5;
 }
 
-#top-navbar a:hover {
+#top-navbar .navbar-link:hover {
   color: white;
+}
+
+#food-image {
+  margin-top: 10vh;
+}
+
+@media only screen and (min-width: 1500px) {
+  body {
+    font-size: 1.5rem;
+  }
 }
 
 @media only screen and (max-width: 850px) {
