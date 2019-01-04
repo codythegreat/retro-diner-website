@@ -1,0 +1,75 @@
+body {
+  font-family: "Mukta", sans-serif;
+  background: #555;
+}
+
+#locations-header {
+    font-size: 2rem;
+    text-align: center;
+    width: 80%;
+    padding-top: 10vh;
+    margin: 10vh auto;
+    color: #eee;
+}
+
+.location-img-left {
+    width: 100%;
+}
+
+.location-img-left img {  
+  width: 50%;
+  margin-left: 15%;
+  z-index: -1;
+}
+
+.location-img-left .location-info {
+    background: rgba(30, 30, 30, .5);
+    width: 50%;
+    padding: 2rem 0;
+    margin-left: 35%;
+    position: relative;
+    top: -6rem;
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.location-img-right {
+    width: 100%;
+}
+
+.location-img-right img {  
+  width: 50%;
+  margin-left: 35%;
+  z-index: -1;
+}
+
+.location-img-right .location-info {
+    background: rgba(30, 30, 30, .5);
+    width: 50%;
+    padding: 2rem 0;
+    margin-left: 15%;
+    position: relative;
+    top: -6rem;
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+@media only screen and (min-width: 1500px) {
+  body {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  body {
+    font-size: .7rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar-brand {
+    font-size: 1.2rem;
+  }
+}
