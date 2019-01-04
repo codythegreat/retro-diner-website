@@ -1,43 +1,12 @@
 body {
   font-family: "Mukta", sans-serif;
   background-color: #333;
+  overflow-x: hidden;
 }
 
 img {
   width: 80%;
-  margin: 5% 10%;
-}
-
-#top-navbar {
-  position: fixed;
-  top: 0px;
-  width: 100vw;
-  height: 10vh;
-  background: #000;
-  padding: 0px 20px;
-}
-
-#navbar-brand {
-  opacity: 1;
-  color: #e55;
-  font-size: 2rem;
-}
-
-#navbar-brand:hover {
-  color: white;
-}
-
-#top-navbar .navbar-link {
-  opacity: 1;
-  color: #5e5;
-}
-
-#top-navbar .navbar-link:hover {
-  color: white;
-}
-
-#margin-navbar {
-  height: 10vh;
+  margin: 5% 10% 0 10%;
 }
 
 .food-type-container {
@@ -46,15 +15,15 @@ img {
 }
 
 .food-type-container .header-container {
-  width: 80%;
+  width: 90%;
+  max-width: 1500px;
   margin: auto;
   text-align: center;
   color: white;
-  margin-bottom: 50px;
 }
 
 .food-type-container .food-grid {
-  width: 80%;
+  width: 90%;
   margin: auto;
   display: grid;
   grid-gap: 5%;
@@ -69,11 +38,34 @@ img {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cg fill='%23f60202' fill-opacity='0.36'%3E%3Cpath fill-rule='evenodd' d='M0 0h4v4H0V0zm4 4h4v4H4V4z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
+.food-type-container .header {
+  margin-top: 1rem;
+  width: 90%;
+  margin-left: 5%;
+  font-size: 1.3rem;
+  background: #333;
+  color: white;
+  margin-bottom: 0;
+}
+
+.food-type-container .description {
+  background: #333;
+  width: 90%;
+  margin-left: 5%;
+  color: white;
+}
+
 @media only screen and (max-width: 850px) {
+  body {
+    font-size: .7rem;
+  }
   .food-type-container .food-grid {
     grid-template-columns: 100%;
   }
 }
 
 @media only screen and (max-width: 600px) {
+  #navbar-brand {
+    font-size: 1.2rem;
+  }
 }
