@@ -7,6 +7,7 @@ body {
   position: fixed;
   top: 0px;
   width: 100vw;
+  height: 10vh;
   background: rgba(30, 30, 30, .7);
   padding: 0px 20px;
 }
@@ -24,53 +25,6 @@ body {
 
 #top-navbar a:hover {
   color: white;
-}
-
-#food-text img {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: auto;
-  z-index: -1;
-}
-
-#food-text .text-container {
-  max-width: 80%;
-  margin: 30% 10%;
-  background: rgba(30, 30, 30, 0.4);
-  border-radius: 10px;
-  text-align: center;
-  color: white;
-}
-
-#food-text h3 {
-  font-size: 2rem;
-}
-
-#chef-text {
-  
-}
-
-#chef-text img {
-  position: absolute;
-  width: 100%;
-  height: auto;
-  z-index: -2;
-}
-
-#chef-text .text-container {
-  position: relative;
-  max-width: 80%;
-  margin: 30% 10%;
-  background: rgba(120, 120, 120, 0.4);
-  border-radius: 10px;
-  text-align: center;
-  color: #e55;
-  padding: 1rem;
-}
-
-#chef-text h3 {
-  font-size: 2rem;
 }
 
 @media only screen and (max-width: 850px) {
