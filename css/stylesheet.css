@@ -1,39 +1,10 @@
 body {
   font-family: "Mukta", sans-serif;
-  background: #;
 }
 
 img {
   width: 100%;
   height: auto;
-}
-
-#top-navbar {
-  position: fixed;
-  top: 0px;
-  width: 100vw;
-  height: 10vh;
-  background: #000;
-  padding: 0px 20px;
-}
-
-#navbar-brand {
-  opacity: 1;
-  color: #e55;
-  font-size: 2rem;
-}
-
-#navbar-brand:hover {
-  color: white;
-}
-
-#top-navbar .navbar-link {
-  opacity: 1;
-  color: #5e5;
-}
-
-#top-navbar .navbar-link:hover {
-  color: white;
 }
 
 #food-image {
