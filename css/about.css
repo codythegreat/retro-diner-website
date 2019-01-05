@@ -1,0 +1,35 @@
+body {
+  font-family: "Mukta", sans-serif;
+  background: #333;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+p {
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+@media only screen and (min-width: 851px) {
+  body {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 850px) {
+  body {
+    font-size: .7rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #navbar-brand {
+    font-size: 1.2rem;
+  }
+}
