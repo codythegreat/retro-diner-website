@@ -1,43 +1,37 @@
 body {
   font-family: "Mukta", sans-serif;
-  background: #333;
-}
-
-img {
-  width: 100%;
-  height: auto;
-}
-
-a {
-  color: #5e5;
-}
-
-a:hover {
+  background-color: #333;
   color: #fff;
 }
 
+@media (max-width: 800px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
 p {
-  color: white;
-  padding: 2rem;
-  text-align: center;
-  font-size: 2rem;
+  width: 80vw;
+  margin: 100px 10vw;
 }
 
-@media only screen and (min-width: 851px) {
-  body {
-    font-size: 1.5rem;
-  }
-}
-
-@media only screen and (max-width: 850px) {
-  body {
-    font-size: .7rem;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  #navbar-brand {
+@media (max-width: 800px) {
+  p {
     font-size: 1.2rem;
   }
+}
+
+@media (min-width: 800px) {
+  p {
+    font-size: 1.6rem;
+  }
+}
+
+p a {
+  color: #5e5;
+}
+
+p a:hover {
+  color: #fff;
 }
 /*# sourceMappingURL=about.css.map */

@@ -1,42 +1,20 @@
-body {
-  font-family: "Mukta", sans-serif;
-}
-
-img {
-  width: 100%;
-  height: auto;
-}
-
-a {
-  color: #5e5;
-}
-
-a:hover {
-  color: #fff;
-}
+@import "stylesheet.scss";
 
 p {
-    color: white;
-    padding: 2rem;
-    text-align: center;
-    font-size: 2rem;
-}
+  width: 80vw;
+  margin: 100px 10vw;
 
-@media only screen and (min-width: 851px) {
-  body {
-    font-size: 1.5rem;
-  }
-
-}
-
-@media only screen and (max-width: 850px) {
-  body {
-    font-size: .7rem;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  #navbar-brand {
+  @include mobile {
     font-size: 1.2rem;
+  }
+
+  @include desktopSM {
+    font-size: 1.6rem;
+  }
+  a {
+    color: $green;
+  }
+  a:hover {
+    color: $white;
   }
 }
