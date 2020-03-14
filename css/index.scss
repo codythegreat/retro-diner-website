@@ -37,31 +37,39 @@ img {
   body {
     font-size: 1.5rem;
   }
+  
   #we-are-container .body .blue {
     margin-left: 20%;
   }
+
   #we-are-container .body .green {
     margin-left: 20%;
   }
 }
 
 @media only screen and (max-width: 850px) {
+  
   body {
     font-size: .7rem;
   }
+  
   #we-are-container {
     font-size: 1rem;
     max-height: 13rem;
   }
+  
   #we-are-container .header {
     font-size: 2rem;
   }
+  
   #we-are-container .body .blue {
     margin-left: 20%;
   }
+
   #we-are-container .body .green {
     margin-left: 20%;
   }
+  
 }
 
 @media only screen and (max-width: 600px) {
@@ -69,4 +77,3 @@ img {
     font-size: 1.2rem;
   }
 }
-/*# sourceMappingURL=index.css.map */

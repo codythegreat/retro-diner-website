@@ -1,6 +1,5 @@
 body {
   font-family: "Mukta", sans-serif;
-  background: #333;
 }
 
 img {
@@ -17,16 +16,17 @@ a:hover {
 }
 
 p {
-  color: white;
-  padding: 2rem;
-  text-align: center;
-  font-size: 2rem;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
 }
 
 @media only screen and (min-width: 851px) {
   body {
     font-size: 1.5rem;
   }
+
 }
 
 @media only screen and (max-width: 850px) {
@@ -40,4 +40,3 @@ p {
     font-size: 1.2rem;
   }
 }
-/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,12 @@
+@import "mixins.scss";
+@import "colors.scss";
+
+body {
+  font-family: "Mukta", sans-serif;
+  background-color: $default-page-bg;
+  color: $white;
+
+  @include mobile {
+    font-size: 1rem;
+  }
+}

@@ -7,9 +7,7 @@ body {
 img {
   width: 30%;
   height: auto;
-  -ms-flex-item-align: start;
-      -ms-grid-row-align: start;
-      align-self: start;
+  align-self: start;
   border-radius: 10px;
 }
 
@@ -20,24 +18,18 @@ img {
 
 .food-type-container .header-container {
   padding: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   width: 90%;
   margin: auto;
   color: white;
   background: #444;
   border-radius: 10px;
+
 }
 
 .food-type-container .header-container h1 {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
   font-size: 10rem;
   text-align: center;
   margin-left: 3rem;
@@ -47,11 +39,9 @@ img {
 .food-type-container .food-grid {
   width: 90%;
   margin: auto;
-  display: -ms-grid;
   display: grid;
   grid-gap: 5%;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .food-type-container .food-item {
@@ -81,25 +71,23 @@ img {
   body {
     font-size: .7rem;
   }
+  
   img {
     width: 80%;
     margin: 1rem 10%;
   }
+  
   .food-type-container .food-grid {
-    -ms-grid-columns: 100%;
-        grid-template-columns: 100%;
+    grid-template-columns: 100%;
   }
+  
   .food-type-container .header-container {
     padding: 0;
     padding-bottom: 1rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
+  
   .food-type-container .header-container h1 {
     font-size: 3rem;
     margin: 0;
@@ -111,4 +99,3 @@ img {
     font-size: 1.2rem;
   }
 }
-/*# sourceMappingURL=menu.css.map */
